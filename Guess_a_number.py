@@ -9,7 +9,6 @@ def number():
     #num=0 is a dummy variable for the further usage in the loop.
     while num!=random_number:
         num=int(input("Enter your guess: "))
-        #never use "continue" if you are using conditional statements afterwards.
         if num>20 or num<x:
             print("OOPSIE! Your number is out of the given range!")
         elif num==random_number:
